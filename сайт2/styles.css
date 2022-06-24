@@ -1,75 +1,122 @@
-body
-{
+body {
     background-color: rgb(20, 20, 20);
 }
-/* .col-md-6
-{
-    background-color: rgb(233, 179, 4);
-} */
-.lefttop
-{
-    background-color: rgb(238, 190, 31);
-    width: 30%;
-    height: 30%;
-    left: 60%;
-    position: absolute;
-}
-.righttop
-{
-    height: 30%;
-    width: 60%;
-    left: 10%;
-}
-.divcenter
-{
-    width: 80%;
-    height: 30%;
-    background-color: rgb(20, 20, 20);
-}
-.containertext1
-{
+.containertext1 {
+    margin-bottom: 5px;
+    margin-top: 3px;
     color:white;
     font-weight: bold;
     font-size: 0.5cm;
+    text-align: center;
 }
-.containerheader
-{
-  width: 80%;
-  
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  border-bottom: 2px solid whitesmoke;
+.containerheader {
+    background-color: black;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 2px solid whitesmoke;
 }
-.container
-{
+.container {
     background-color: rgb(30, 30, 30);
     padding-top: 15px;
+    margin-top: 21px;
 }
-.containerMid
-{
-  width: 100%;
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: rgb(211, 158, 45);
+.containerMid {
+    width: 100%;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(211, 158, 45);
 }
-.mid
-{
-    top: 32%;
-    left: 10%;
-    width: 80%;
-    height: 30%;
-    background-color: rgb(30, 30, 30);
-    position: absolute;
+.btn-warning {
+    width: 70%;
+    text-align: center;
+    padding: 5px 60px 5px 60px;
+    color:white;
 }
-.down
-{
-    top: 62%;
-    left:10%;
-    position: absolute;
-    height: 30%;
+.btn-warning:hover {
+    color:rgb(117, 117, 117);
+}
+.btn-warning:focus {
+    color:rgb(0, 0, 0);
+}
+.aboutTitle {
+    position: relative;
+    padding: 0% 0.5% 0.5% 1%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size:xx-large;
+}
+.aboutInfo {
+    position: relative;
+    text-align:left;
+    padding: 0% 0.5% 0.5% 0%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size:80%;
+} 
+/* .about-div {
+    display: flex;
+    height: 220px;
+    flex-direction: column;
+    justify-content: center;
+} */
+.line {
+    border-left: 6px solid white;
+    border-radius: 4px;
+}
+.educationTitle {
+    margin-top: 21px;
+    padding: 1% 1% 1% 1%;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size:xx-large;
+}
+.educationInfo {
+    position: relative;
+    text-align:left;
+    padding: 0% 0% 0.5% 0%;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size:80%;
+}
+.skillsTitle {
+    
+    padding: 0% 0.5% 0.5% 1%;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size:xx-large;
+}
+.skillsInfo {
+    position: relative;
+    text-align:left;
+    padding: 0% 0% 0.5% 0%;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size:80%;
+}
+.myButton {
+	/* border:1px solid #ffdd00; */
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 20%;
+	text-decoration:none;
+    transition: background-color 0.1s linear;
+}
+.myButton:hover {
+    color:rgb(255, 255, 255);
+	background-color:#1f1f1e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }

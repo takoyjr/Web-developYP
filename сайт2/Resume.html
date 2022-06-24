@@ -1,45 +1,52 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>     
-    <div class="containerheader containertext1">
-        <div class="row ">
-      
-          <div class="col-lg-3 col-md-6">
-            About
-          </div>
-      
-          <div class="col-lg-3 col-md-6">
-            Name
-          </div>
-      
-          <div class="col-lg-3 col-md-6">
-            SurName
-          </div>
-      
-          <div class="col-lg-3 col-md-6">
-            Sur
-          </div>
-      
-        </div>
-    </div>
-    <div class="lefttop">
-        Photo
-    </div>
-    <div class="righttop containertext1">
-        
-    </div>
-    <div class="mid">
 
-    </div>
-    <div class="down">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
 
+<body id="About">
+    <!-- Header -->
+  <div class=" containerheader containertext1" style="position: sticky; top:0px; z-index: 1;">
+    <div class="row ">
+      <div class="col-lg-3 col-md-6">
+        <a href="#About" type="button" class="myButton">About</a>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <a href="#Education" type="button" class="myButton ">Education</a>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <a href="#Skills" type="button" class="myButton">Skills</a>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <a href="#Projects" type="button" class="myButton">Projects</a>
+      </div>
     </div>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  </div>
+  <div class="container">
+    <!-- Body -->
+    <div class="aboutTitle line about-div" id="Education">
+      About
+      <div class="aboutInfo">
+        <p>I`m Nikita 19 y.o.</p>
+        <p> Nowadays im living in Minsk. The capital of USA.</p>
+        <p> My favorite subject is YP-Web and Pyhton</p>
+      </div>
+    </div>
+    <div class="educationTitle about-div" id="Skills">
+      Education
+      <h1 class="educationInfo">MCB. MCB is my home. Im spending all my time in this sh*t...</h1>
+    </div>
+    <div class="skillsTitle line about-div" id="Projects">
+      Skills
+      <h1 class="skillsInfo"> I KNOW PYTHON VERY WELL. EVERY1 WANT TO BE LIKE PYTHON. LONG and STRONG...</h1>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 </body>
+
 </html>
